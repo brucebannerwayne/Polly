@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: 404cc9a5fe8ec994ca578d6b34a7107a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 681991801413981776
+    second: PUZZLE6_0
+  - first:
+      213: 1352819240761599120
+    second: PUZZLE6_1
+  - first:
+      213: 1814673539781432469
+    second: PUZZLE6_2
+  - first:
+      213: -2675635572487325637
+    second: PUZZLE6_3
+  - first:
+      213: 8818411612611209194
+    second: PUZZLE6_4
+  - first:
+      213: -7232586533409261999
+    second: PUZZLE6_5
+  - first:
+      213: 9163042079452723939
+    second: PUZZLE6_6
+  - first:
+      213: 7705140467702098738
+    second: PUZZLE6_7
+  - first:
+      213: 1684455247630352368
+    second: PUZZLE6_8
+  - first:
+      213: -5921822786946603951
+    second: PUZZLE6_9
+  - first:
+      213: -6171670172436544021
+    second: PUZZLE6_10
+  - first:
+      213: 2099545380891417331
+    second: PUZZLE6_11
+  - first:
+      213: 5936503699464862125
+    second: PUZZLE6_12
+  - first:
+      213: -6485164085612614605
+    second: PUZZLE6_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PUZZLE6_0
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 659
+        width: 509
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b720c6c895179344b945a9f2015b1f02
+      internalID: 681991801413981776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_1
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 616
+        width: 500
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70de29150f033d4ab9425d43da01511
+      internalID: 1352819240761599120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_2
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 659
+        width: 446
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d668478e4ccfee74c82e85b6ea8f5214
+      internalID: 1814673539781432469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_3
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 703
+        width: 236
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a95d2a2ab3c644a81b7474b38a28eb
+      internalID: -2675635572487325637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_4
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 699
+        width: 158
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b225c3af5b1974d92979ddaf4d1a97
+      internalID: 8818411612611209194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_5
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 728
+        width: 231
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f2f65ef32161d41b24efd6c4e70a41
+      internalID: -7232586533409261999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_6
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 746
+        width: 182
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d65086a8613e894a80192ea1e00a6a9
+      internalID: 9163042079452723939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_7
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 512
+        width: 831
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8790f44617a36bd48af12ebf5aec147d
+      internalID: 7705140467702098738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_8
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 485
+        width: 226
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43be2e0f3b1952346a74eaec85efe60c
+      internalID: 1684455247630352368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 1982
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2e82d715c00f34892d36d400cc7f17
+      internalID: -5921822786946603951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_10
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 41
+        width: 309
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0c5e5dce117814688d42c975e59dfd
+      internalID: -6171670172436544021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_11
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 41
+        width: 311
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea756c0a6e32eb4794e21bc38d07c34
+      internalID: 2099545380891417331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_12
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 10
+        width: 1135
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd05a3bc7bb0c8747997817f379a0a22
+      internalID: 5936503699464862125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUZZLE6_13
+      rect:
+        serializedVersion: 2
+        x: 4203
+        y: 376
+        width: 488
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525afbfb8f8bafa4fae9ce7a274103c5
+      internalID: -6485164085612614605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ed23809dbc654d348bfc861c739aef3b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
