@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//make palyer's movement effected by the stream
 public class MoveAir : MonoBehaviour
 {
     public Vector2 UpForce = Vector2.up;

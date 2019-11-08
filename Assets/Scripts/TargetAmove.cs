@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//move water tank A
 public class TargetAmove : MonoBehaviour
 {
     public List<GameObject> MovePoints = new List<GameObject>();

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//create an electric orb when the generator collides with Electric Ray's electric
 public class Electrify : MonoBehaviour
 {
     public GameObject ElectricOrb;

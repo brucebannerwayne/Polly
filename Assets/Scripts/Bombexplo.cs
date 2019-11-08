@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//things being destroyed by the explosion
 public class Bombexplo : MonoBehaviour
 {
     public GameObject iron;

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//make the pals move around player
 public class GroupBehaviour : MonoBehaviour {
     public Vector3 speed = Vector3.forward;
     public List<GameObject> separationNeighbors = new List<GameObject>();
@@ -37,7 +37,7 @@ public class GroupBehaviour : MonoBehaviour {
         alighmentForce = Vector3.zero;
         cohesionForce = Vector3.zero;
         separationNeighbors.Clear();
-
+        //make pals seprate when they are too close
         Collider2D[] coll = Physics2D.OverlapCircleAll(transform.position, separationDistance);
         foreach (Collider2D c in coll)
         {
@@ -70,7 +70,7 @@ public class GroupBehaviour : MonoBehaviour {
             noCollideForce *= noCollideWeight;
             if(float.IsInfinity(noCollideForce.x) || float.IsInfinity(noCollideForce.y))
             {
-                noCollideForce =Vector3.zero;
+                noCollideForce =Vector3.zero;//avoid pals from collide each other
             }
             sumForce += noCollideForce;
         }
@@ -109,7 +109,7 @@ public class GroupBehaviour : MonoBehaviour {
         center /= alighmentNeighbors.Count;
         Vector3 dirtoCenter = center - transform.position;
         cohesionForce += dirtoCenter;
-        cohesionForce *= cohesionWeight;
+        cohesionForce *= cohesionWeight;//make pals get together when they are separated
         sumForce += cohesionForce;
         Vector3 moveBack = GameObject.FindWithTag("Player").transform.position - transform.position;
         moveToTarget += moveBack;

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//move anchor
 public class Anchormove : MonoBehaviour
 {
     // Start is called before the first frame update

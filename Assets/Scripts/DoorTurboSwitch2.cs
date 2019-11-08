@@ -9,7 +9,7 @@ public class DoorTurboSwitch2 : MonoBehaviour
     public GameObject Air;
     public GameObject anotherSwitch;
     public GameObject turbo;
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)//control another kind of electric door
     {
         if (collision.tag == "Electric")
         {

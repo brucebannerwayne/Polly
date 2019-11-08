@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+//make the octopus run away from player when player tries to catch it
 public class EscapeFromPlayer : MonoBehaviour
 {
     public List<GameObject> bounceOff = new List<GameObject>();

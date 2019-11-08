@@ -9,7 +9,7 @@ public class ElectricDoor : MonoBehaviour
     public bool canOpen = false;
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "EleOrb")
+        if(collision.tag == "EleOrb")//when the door coilides with electric orb, open it
         {
             Debug.Log("Change state");
             canOpen = true;

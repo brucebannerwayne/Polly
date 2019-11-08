@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//make iron object move towards magnet
 public class IronSuck : MonoBehaviour
 {
     public void GetSuck(Vector2 SuckForce)

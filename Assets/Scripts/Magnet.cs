@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//script of electric magnet
 public class Magnet : MonoBehaviour
 {
     public float SuckDistance;

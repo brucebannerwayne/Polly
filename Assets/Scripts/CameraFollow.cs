@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+//camera follow the player
 public class CameraFollow : MonoBehaviour
 {
     public GameObject player;  //主角

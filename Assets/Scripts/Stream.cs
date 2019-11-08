@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//script of stream
 public class Stream : MonoBehaviour
 {
     public Vector2 streamForce;

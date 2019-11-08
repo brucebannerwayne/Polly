@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+//make the octopus run away from player when player tries to catch it
 public class Escape : MonoBehaviour
 {
     public Transform[] navPoints;

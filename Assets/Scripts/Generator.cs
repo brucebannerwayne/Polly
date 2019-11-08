@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Script used to control electric ray
 public class Generator : MonoBehaviour
 {
     public Transform target;

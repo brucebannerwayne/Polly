@@ -11,7 +11,7 @@ public class DoorTurboSwitch1 : MonoBehaviour
     public GameObject turbo;
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Electric")
+        if (collision.tag == "Electric")//if electric door's lock contacts with Electric Ray's electric, open the door
         {
             Debug.Log("move");
             DownForce = Vector2.down;

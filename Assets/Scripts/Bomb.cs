@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//control the octopus
 public class Bomb : MonoBehaviour {
     public Transform tr;
     public float speed;
@@ -23,7 +23,7 @@ public class Bomb : MonoBehaviour {
 
 
 
-    void Flip()//发射方向
+    void Flip()//fire direction
     {
         Vector3 scale = transform.localScale;
         scale.x *= -1;
@@ -32,7 +32,7 @@ public class Bomb : MonoBehaviour {
         //gameObject.GetComponent<SpriteRenderer>().flipY=true;
     }
 
-    public void SelfDestroy()
+    public void SelfDestroy()//cancel the octopus
     {
         GameObject.Find("octopus 1").GetComponent<SpriteRenderer>().enabled = true;
         GameObject.FindWithTag("Player").GetComponent<PlayerMovement>().octopusNum = 1;
@@ -73,7 +73,7 @@ public class Bomb : MonoBehaviour {
 	void Update () {
 
        
-            if (aimat)
+            if (aimat)//fire the octopus
             {
                 float ha = Input.GetAxis("Aim");
                 float va = Input.GetAxis("Aim1");
@@ -108,7 +108,7 @@ public class Bomb : MonoBehaviour {
         }
 
 
-        if (ismoveable)
+        if (ismoveable)//use octopus to move items
         {
             if(octocam==true)
             {
@@ -130,7 +130,7 @@ public class Bomb : MonoBehaviour {
             v_oc = Input.GetAxis("Vertical");
             Vector2 moveDir = (Vector2.up * v_oc) + (Vector2.right * h_oc);
             tr.Translate(moveDir.normalized * Time.deltaTime * movespeed, Space.Self);
-            if (Input.GetKeyDown(KeyCode.Joystick1Button1))
+            if (Input.GetKeyDown(KeyCode.Joystick1Button1))//drop the item
             {
                  //DestroyImmediate(octocamera,true);
                     gameObject.GetComponentInChildren<Rigidbody2D>().gravityScale = 1;
@@ -149,7 +149,7 @@ public class Bomb : MonoBehaviour {
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "obstacle" || collision.gameObject.tag == "Peral" || collision.gameObject.tag == "rock" || collision.gameObject.tag=="Iron")
+        if (collision.gameObject.tag == "obstacle" || collision.gameObject.tag == "Peral" || collision.gameObject.tag == "rock" || collision.gameObject.tag=="Iron")//move item
         {
             isshoot = false;
             speed = 0;

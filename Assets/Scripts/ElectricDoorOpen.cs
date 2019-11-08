@@ -5,7 +5,7 @@ using UnityEngine;
 public class ElectricDoorOpen : MonoBehaviour
 {
     public GameObject tr;
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)//open the door
     {
         if(collision.tag == "Player")
         {

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Electric door control
 public class EleDoor2 : MonoBehaviour
 {
     public Sprite sprite1;

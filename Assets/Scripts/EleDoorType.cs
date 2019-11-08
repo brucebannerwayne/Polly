@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//open electric door
 public class EleDoorType : MonoBehaviour
 {
     public Sprite sprite1;

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//checkpoint where player respawn from
 public class ActiveCheckPoint : MonoBehaviour
 {
     public Transform tr;

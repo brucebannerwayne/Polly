@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//script used to control player's movement
 public class PlayerMovement : MonoBehaviour {
     private Transform tr;
     public float speed;
@@ -156,7 +156,8 @@ public class PlayerMovement : MonoBehaviour {
 
 
         //transform.localRotation = Quaternion.
-        //河豚炸弹
+        
+        //puffer control
         if (hs > 0 && vs == 0 && bombNum > 0)
         {
             bombNum = 0;
@@ -184,7 +185,7 @@ public class PlayerMovement : MonoBehaviour {
             GameObject.FindWithTag("bomb").SendMessage("SetOff", bombDir);
             
         }
-        //发电电鳐
+        //Electric Ray
         if (hs == 0 && vs > 0 && generatorNum > 0)
         {
             Instantiate(useitem, target.position, target.rotation);
@@ -208,7 +209,7 @@ public class PlayerMovement : MonoBehaviour {
             GameObject.FindWithTag("Generator").SendMessage("SetOff");
         }
 
-        //磁铁章鱼
+        //octopus
         if (hs == 0 && vs < 0 && octopusNum > 0)
         {
             Instantiate(useitem, target.position, target.rotation);
@@ -236,7 +237,7 @@ public class PlayerMovement : MonoBehaviour {
             GameObject.FindWithTag("octopus").SendMessage("SetOff", octopusDir);
         }
 
-        //骑海马
+        //hip sprint
         if (hs < 0 && vs == 0 && hippNum > 0)
         {
             // Instantiate(octopus, target.position, target.rotation);

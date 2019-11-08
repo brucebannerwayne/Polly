@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AnchorDown : MonoBehaviour
 {
+    //lower the anchor
     public Animator a;
     public int anchorfall=0;
     public void Drop()

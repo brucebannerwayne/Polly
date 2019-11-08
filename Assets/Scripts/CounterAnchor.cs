@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//rise the anchor
 public class CounterAnchor : MonoBehaviour
 {
     public Vector2 CounterForce;

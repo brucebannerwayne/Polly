@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//make water a conductor
 public class WaterConduct : MonoBehaviour
 {
     public int conduct;

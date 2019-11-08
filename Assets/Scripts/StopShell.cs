@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//stop the rotation of shell
 public class StopShell : MonoBehaviour
 {
     public void OnTriggerEnter2D(Collider2D collision)

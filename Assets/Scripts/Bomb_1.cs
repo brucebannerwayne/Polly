@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//script used to control puffer
 public class Bomb_1 : MonoBehaviour
 {
     public Transform tr;
@@ -13,7 +13,7 @@ public class Bomb_1 : MonoBehaviour
     private Vector3 aimDir2;
     public float aimspeed;
 
-    void Flip()//发射方向
+    void Flip()//fire direction
     {
         Vector3 scale = transform.localScale;
         scale.x *= -1;
@@ -26,13 +26,13 @@ public class Bomb_1 : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void SetOff(Vector2 bombDir)
+    public void SetOff(Vector2 bombDir)//fire the puffer
     {
         //Debug.Log("123");
         GetComponent<Rigidbody2D>().AddForce(bombDir * speed);
 
     }
-    public void Explode()
+    public void Explode()//puffer explode
     {
         GameObject.FindWithTag("Player").GetComponent<PlayerMovement>().bombNum = 1;
         Invoke("reallyexplode", 3f);
@@ -56,7 +56,7 @@ public class Bomb_1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (aimat)
+        if (aimat)//fire the puffer
         {
            
             float ha = Input.GetAxis("Aim");

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-
+//make the electric orb follows the path which has a smaller electric resistence
 public class ElectricOrb : MonoBehaviour
 {
 

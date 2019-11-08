@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//script used to close shell
 public class CloseShell : MonoBehaviour
 {
     public bool canRotate = true;

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//close the shell if it collides with the peral
 public class PearlDetect : MonoBehaviour
 {
     public GameObject tr;

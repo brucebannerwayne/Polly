@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
-
+//make the octopus run away from player when player tries to catch it
 public class EscapeRay : MonoBehaviour
 {
     public Transform tr;

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//control script of water level myst
 public class WaterSwitch : MonoBehaviour
 {
     public int AMax;
@@ -14,7 +14,7 @@ public class WaterSwitch : MonoBehaviour
     public GameObject targetB;
     public GameObject targetC;
 
-    public void AtoB()
+    public void AtoB()//pour water from A to B
     {
         int temp = BMax - BNow;
         if (temp > 0)
@@ -34,7 +34,7 @@ public class WaterSwitch : MonoBehaviour
         targetB.SendMessage("Move", BNow);
     }
 
-    public void BtoA()
+    public void BtoA()//pour water from B to A
     {
         int temp = AMax - ANow;
         if (temp > 0)
@@ -53,7 +53,7 @@ public class WaterSwitch : MonoBehaviour
         targetA.SendMessage("Move", ANow);
         targetB.SendMessage("Move", BNow);
     }
-    public void AtoC()
+    public void AtoC()//pour water from A to C
     {
         int temp = CMax - CNow;
         if (temp > 0)
@@ -72,7 +72,7 @@ public class WaterSwitch : MonoBehaviour
         targetA.SendMessage("Move", ANow);
         targetC.SendMessage("Move", CNow);
     }
-    public void CtoA()
+    public void CtoA()//pour water from C to A
     {
         int temp = AMax - ANow;
         if (temp > 0)
@@ -91,7 +91,7 @@ public class WaterSwitch : MonoBehaviour
         targetA.SendMessage("Move", ANow);
         targetC.SendMessage("Move", CNow);
     }
-    public void CtoB()
+    public void CtoB()//pour water from C to B
     {
         int temp = BMax - BNow;
         if (temp > 0)
@@ -110,7 +110,7 @@ public class WaterSwitch : MonoBehaviour
         targetB.SendMessage("Move", BNow);
         targetC.SendMessage("Move", CNow);
     }
-    public void BtoC()
+    public void BtoC()//pour water from B to C
     {
         int temp = CMax - CNow;
         if (temp > 0)

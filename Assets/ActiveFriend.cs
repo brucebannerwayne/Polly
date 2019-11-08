@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//script used to active pal's usage
 public class ActiveFriend : MonoBehaviour
 {
     public GameObject friends;

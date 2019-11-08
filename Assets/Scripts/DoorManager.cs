@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+//script used to load next scene when player entered the certain door
 public class DoorManager : MonoBehaviour
 {
     private Animator Door;

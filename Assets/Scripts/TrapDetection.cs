@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//trap's detection script
 public class TrapDetection : MonoBehaviour
 {
     public void OnTriggerEnter2D(Collider2D collision)
